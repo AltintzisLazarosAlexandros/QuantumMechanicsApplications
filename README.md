@@ -30,9 +30,13 @@ To get started with this project, you'll need:
 ## Build Instructions
 
 ```bash
-g++ test_eigen.cpp -I /usr/include/eigen3 -O2 -std=c++17 -o test_eigen
-./test_eigen
+mkdir build
+cd build
+cmake ..
+cmake --build .
 ```
+
+The executable will be created in the `build/bin/` directory.
 
 ## Contributing
 
